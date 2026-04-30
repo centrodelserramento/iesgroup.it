@@ -320,8 +320,8 @@ h1, h2, h3, h4, h5, h6 {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  width: 140px;
-  height: 140px;
+  width: 160px;
+  height: 160px;
   background: #3b82f6; /* Blue circle */
   color: white;
   border-radius: 50%;
@@ -334,15 +334,16 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .promo-badge-center span {
-  font-size: 1rem;
+  font-size: 0.95rem;
   line-height: 1.2;
 }
 
 .promo-badge-center .days {
-  font-size: 3rem;
+  font-size: 3.5rem;
   font-weight: 800;
   display: block;
   margin: -5px 0;
+  line-height: 1;
 }
 
 .relative { position: relative; }
@@ -570,11 +571,11 @@ h1, h2, h3, h4, h5, h6 {
     grid-template-columns: 1fr;
   }
   .promo-badge-center {
-    width: 100px;
-    height: 100px;
+    width: 120px;
+    height: 120px;
   }
-  .promo-badge-center .days { font-size: 2rem; }
-  .promo-badge-center span { font-size: 0.875rem; }
+  .promo-badge-center .days { font-size: 2.2rem; }
+  .promo-badge-center span { font-size: 0.85rem; }
   
   .footer-grid {
     grid-template-columns: 1fr;
