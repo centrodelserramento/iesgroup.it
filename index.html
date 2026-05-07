@@ -125,23 +125,13 @@
         </div>
 
         <form id="contactForm" class="contact-form fade-in-up">
+          <!-- Hidden referent fields prefilled with IES Group info -->
+          <input type="hidden" name="nome_referente" value="IES Group">
+          <input type="hidden" name="email_referente" value="info@iesgroup.it">
+          <input type="hidden" name="telefono_referente" value="02 40136505">
+          <input type="hidden" name="azienda_referente" value="IES Group S.r.l.">
+
           <div class="form-grid">
-            <div class="form-group">
-              <label for="nome_referente">Nome referente *</label>
-              <input type="text" id="nome_referente" name="nome_referente" required value="IES Group">
-            </div>
-            <div class="form-group">
-              <label for="email_referente">Email referente</label>
-              <input type="email" id="email_referente" name="email_referente" value="info@iesgroup.it">
-            </div>
-            <div class="form-group">
-              <label for="telefono_referente">Telefono referente</label>
-              <input type="tel" id="telefono_referente" name="telefono_referente" value="02 40136505">
-            </div>
-            <div class="form-group">
-              <label for="azienda_referente">Azienda referente</label>
-              <input type="text" id="azienda_referente" name="azienda_referente" value="IES Group S.r.l.">
-            </div>
             <div class="form-group">
               <label for="nome_cliente">Nome cliente *</label>
               <input type="text" id="nome_cliente" name="nome_cliente" required placeholder="Nome del cliente finale">
