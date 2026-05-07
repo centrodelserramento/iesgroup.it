@@ -64,22 +64,12 @@
         </div>
         <div class="hero-image-wrapper fade-in-up" style="animation-delay: 0.2s;">
           <div class="promo-container relative">
-            <div class="promo-grid">
-              <div class="promo-card">
-                <img src="./images/promo_frogs.jpeg" alt="Stop al rumore" class="promo-img" />
-                <div class="promo-text">
-                  <h3>Stop al rumore della pioggia</h3>
-                  <p>Le tapparelle VELUX riducono il rumore di pioggia e grandine fino al 75%</p>
-                  <small>Secondo test effettuati da VELUX</small>
-                </div>
-              </div>
-              <div class="promo-card">
-                <img src="./images/promo_camel.jpeg" alt="Tieni fuori il caldo" class="promo-img" />
-                <div class="promo-text">
-                  <h3>Tieni fuori il caldo</h3>
-                  <p>Fino a 4°C in meno in mansarda con le tapparelle VELUX</p>
-                  <small>Test con tapparella installata su una vecchia finestra</small>
-                </div>
+            <div class="promo-card single-promo">
+              <img src="./images/promo_frogs.jpeg" alt="Tapparelle Velux" class="promo-img" />
+              <div class="promo-text">
+                <h3>Protezione e Comfort per la tua Mansarda</h3>
+                <p>Le tapparelle VELUX riducono il rumore di pioggia e grandine fino al 75% e tengono fuori il caldo, mantenendo fino a 4°C in meno in casa.</p>
+                <small>Secondo test effettuati da VELUX su finestre di vecchia generazione.</small>
               </div>
             </div>
             <div class="promo-badge-center">
@@ -179,6 +169,12 @@
               <label for="photos">Carica foto (opzionale)</label>
               <input type="file" id="photos" name="photos" multiple accept="image/*">
             </div>
+            <div class="form-group full-width" style="display: flex; align-items: flex-start; gap: 0.75rem; margin-top: 1rem;">
+              <input type="checkbox" id="privacy" name="privacy" required style="width: auto; margin-top: 0.25rem;">
+              <label for="privacy" style="font-weight: 400; font-size: 0.85rem; line-height: 1.4;">
+                Acconsento al trattamento dei dati personali secondo la <a href="#" onclick="alert('In arrivo'); return false;">Privacy Policy</a>. I dati verranno utilizzati esclusivamente per gestire la tua richiesta di preventivo. *
+              </label>
+            </div>
           </div>
           
           <div id="formMessage" class="form-message"></div>
@@ -227,8 +223,9 @@
         </div>
       </div>
       <div class="footer-bottom">
-        <div class="container">
-          © 2026 IES Group S.r.l. | P.IVA e C.F. 14134380964 | Sede Legale: Via Rho, 27 - Lainate (MI)
+        <div class="container" style="display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 1rem;">
+          <span>© 2026 IES Group S.r.l. | P.IVA e C.F. 14134380964 | Sede Legale: Via Rho, 27 - Lainate (MI)</span>
+          <a href="#" onclick="alert('In arrivo'); return false;" style="color: rgba(255,255,255,0.6); text-decoration: none; font-size: 0.85rem;">Privacy Policy</a>
         </div>
       </div>
     </footer>
