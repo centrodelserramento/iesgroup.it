@@ -201,12 +201,33 @@ h1, h2, h3, h4, h5, h6 {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  gap: 1.5rem;
+}
+
+.brand-lockup {
+  display: flex;
+  align-items: center;
+  gap: 0.875rem;
+  min-width: 0;
+  text-decoration: none;
 }
 
 .brand-logo {
-  height: 40px;
+  display: block;
   width: auto;
   object-fit: contain;
+  flex: 0 0 auto;
+}
+
+.brand-logo-ies {
+  height: 55px;
+}
+
+.brand-logo-velux {
+  height: 55px;
+  background: white;
+  border: 1px solid rgba(15, 23, 42, 0.12);
+  border-radius: 4px;
 }
 
 .nav-actions {
@@ -599,6 +620,10 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 @media (max-width: 576px) {
+  .navbar { padding: 0.75rem 0; }
+  .brand-lockup { gap: 0.5rem; }
+  .brand-logo-ies { height: 42px; }
+  .brand-logo-velux { height: 42px; }
   .nav-whatsapp { display: none; }
   .hero-title { font-size: 2.5rem; }
   .hero-cta { flex-direction: column; }
